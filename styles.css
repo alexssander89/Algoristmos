@@ -1,15 +1,41 @@
-/* styles.css */
+styles.css
+body,html{margin:0;padding:0;height:100%;}
+#container{position:relative;}
+body{
+  background:url('https://elements-video-cover-images-0.imgix.net/files/a745e746-d641-4488-9066-d88b935ac3f1/inline_image_preview.jpg?auto=compress&h=630&w=1200&fit=crop&crop=edges&fm=jpeg&s=c10e934dd3d8221348110afa97af9bb3');
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:600px;height:auto;}
 
 body {
-    font-family: Verdana, sans-serif;
-    font-size: 10px;
-  }
+  font-family: Verdana, sans-serif;
+  font-size: 10px;
+  background-color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
-h1  {
-    font-family: Copperplate, Papyrus, fantasy;
-    font-size: 46px;  
-  }
+h1 {
+  font-family: "Copperplate", "Papyrus", fantasy, sans-serif;
+  font-size: 46px;
+  color: #525151;
+}
 
 p {
-    font-size: 20px;
+  font-size: 20px;
+  color: #f8f8f8;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
